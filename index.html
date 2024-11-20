@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERROR</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="background">
+        <img class="left-hand" src='./images/HandLeft.png' alt="Left Hand">
+        <img class="right-hand" src='./images/RightHand.png' alt="Right Hand">
+    </div>
+
+    <div class="cypher">
+        <div class="digit-container">
+            <div class="arrow" onclick="changeDigit(0, 1)">&#9650;</div>
+            <div class="digit" id="digit-0">0</div>
+            <div class="arrow" onclick="changeDigit(0, -1)">&#9660;</div>
+        </div>
+        <div class="digit-container">
+            <div class="arrow" onclick="changeDigit(1, 1)">&#9650;</div>
+            <div class="digit" id="digit-1">0</div>
+            <div class="arrow" onclick="changeDigit(1, -1)">&#9660;</div>
+        </div>
+        <div class="digit-container">
+            <div class="arrow" onclick="changeDigit(2, 1)">&#9650;</div>
+            <div class="digit" id="digit-2">0</div>
+            <div class="arrow" onclick="changeDigit(2, -1)">&#9660;</div>
+        </div>
+        <div class="digit-container">
+            <div class="arrow" onclick="changeDigit(3, 1)">&#9650;</div>
+            <div class="digit" id="digit-3">0</div>
+            <div class="arrow" onclick="changeDigit(3, -1)">&#9660;</div>
+        </div>
+        <div class="digit-container">
+            <div class="arrow" onclick="changeDigit(4, 1)">&#9650;</div>
+            <div class="digit" id="digit-4">0</div>
+            <div class="arrow" onclick="changeDigit(4, -1)">&#9660;</div>
+        </div>
+        <div class="digit-container">
+            <div class="arrow" onclick="changeDigit(5, 1)">&#9650;</div>
+            <div class="digit" id="digit-5">0</div>
+            <div class="arrow" onclick="changeDigit(5, -1)">&#9660;</div>
+        </div>
+    </div>
+
+    <div class="eye-container">
+        <div class="eye">
+            <div class="iris"></div>
+        </div>
+    </div>
+
+    <div class="line left line-1"></div>
+    <div class="line left line-2"></div>
+    <div class="line left line-3"></div>
+    <div class="line left line-4"></div>
+
+    <div class="line right line-5"></div>
+    <div class="line right line-6"></div>
+    <div class="line right line-7"></div>
+    <div class="line right line-8"></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
