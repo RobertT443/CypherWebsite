@@ -53,12 +53,9 @@ body, html {
 
 @keyframes moveHands {
     0% { transform: translateY(0px); }
-    20% { transform: translateY(60px); }
-    40% { transform: translateY(-60px); }
-    60% { transform: translateY(-60px); }
-    80% { transform: translateY(60px); }
-    90% { transform: translateY(-60px); }
-    100% {  transform: translateY(60px); }
+    25% { transform: translateY(-20px)}
+    75% { transform: translateY(40px)}
+    100% {transform: translateY(-20px)}
 }
 
 .cypher {
