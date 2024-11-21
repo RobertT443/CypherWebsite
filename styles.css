@@ -21,12 +21,17 @@ body, html {
     align-items: center
 }
 
+.responsive-image {
+    width: 67%
+    max-width: 1300px;
+    height: auto;
+}
+
 .left-hand {
     position: absolute;
     left: 0;
     transform: translateY(-50%);
-    top: 70%;
-    max-width: 67%;
+    top: 50%;
     z-index: 10;
 }
 
@@ -34,8 +39,7 @@ body, html {
     position: absolute;
     right: 0;
     transform: translateY(-50%);
-    top: 60%;
-    max-width: 67%;
+    top: 50%;
     z-index: 10;
 }
 
