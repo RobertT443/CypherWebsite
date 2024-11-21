@@ -22,7 +22,7 @@ body, html {
 }
 
 .responsive-image {
-    width: 67%
+    width: 100%
     max-width: 1300px;
     height: auto;
 }
