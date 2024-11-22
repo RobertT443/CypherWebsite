@@ -1,5 +1,5 @@
 // Defining the correct code
-const correctCode = "123456";
+const correctCode = "753357";
 
 document.addEventListener("mousemove", function (event) {
     const eye = document.querySelector(".eye");
